@@ -8,15 +8,14 @@ public class Joueur {
 	private Pion pion2;
 
 	// CONSTRUCTEUR
-	public Joueur() {
-		super();
-	}
-
 	// public Joueur() {
-	// pion1 = new Pion();
-	// pion2 = new Pion();
-	//
+	// super();
 	// }
+
+	public Joueur() {
+		pion1 = new Pion();
+		pion2 = new Pion();
+	}
 
 	// GETTER & SETTER
 

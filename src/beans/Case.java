@@ -3,31 +3,27 @@ package beans;
 public class Case {
 
 	// ATTRIBUTS
-	private String position;
-	private boolean occupe = true;
+	private Case position;
+	private String occupe;
 
 	// CONSTRUCTEUR
 	public Case() {
 	}
 
 	// GETTER & SETTER
-	public String getPosition() {
+	public Case getPosition() {
 		return position;
 	}
 
-	public void setPosition(String string) {
-		position = string;
+	public void setPosition(Case here) {
+		position = here;
 	}
 
-	// public Plateau getPlateau() {
-	// return plateau;
-	// }
-
-	public boolean isOccupe() {
+	public String isOccupe() {
 		return occupe;
 	}
 
-	public void setOccupe(boolean occupe) {
+	public void setOccupe(String occupe) {
 		this.occupe = occupe;
 	}
 

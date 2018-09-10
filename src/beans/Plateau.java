@@ -7,8 +7,8 @@ public class Plateau {
 
 	// CONSTRUCTEURS
 	public Plateau() {
-		grille = new Case[7][7];
 		partie = new Partie();
+		grille = new Case[7][7];
 	}
 
 	// GETTER & SETTER
