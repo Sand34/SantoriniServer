@@ -9,7 +9,7 @@ public class GameManager {
 
 		// on crée un plateau et cela instancie aussi une partie
 		Plateau plateau = new Plateau();
-		Case[][] caseGrille = new Case[7][7];
+		Case[][] casesGrille = new Case[7][7];
 
 		// Case caseDegrille = new Case();
 
@@ -22,7 +22,7 @@ public class GameManager {
 			// boucle pour parcourir le tableau i par case
 			for (int j = 0; j < plateau.getGrille()[i].length; j++) {
 				// Case caseDegrille = new Case();
-				plateau.setGrille(caseGrille);
+				plateau.setGrille(casesGrille);
 				System.out.print(plateau.getGrille()[i][j] + " ");
 
 			}
