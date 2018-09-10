@@ -1,13 +1,8 @@
-package Beans;
+package beans;
 
 public class Building {
-	private int level;
 
-	// constructeur
-	public Building(int level) {
-		super();
-		this.level = level;
-	}
+	private int level;
 
 	public int getLevel() {
 		return level;
@@ -16,7 +11,5 @@ public class Building {
 	public void setLevel(int level) {
 		this.level = level;
 	}
-
-	// getter & setter
 
 }
