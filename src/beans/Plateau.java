@@ -3,11 +3,11 @@ package beans;
 public class Plateau {
 	// ATTRIBUTS
 	private Partie partie;
-	private Case grille[][];
+	private String[][] grille;
 
 	// CONSTRUCTEURS
 	public Plateau() {
-		grille = new Case[7][7];
+		grille = new String[7][7];
 		partie = new Partie();
 	}
 
@@ -20,11 +20,11 @@ public class Plateau {
 		this.partie = partie;
 	}
 
-	public Case[][] getGrille() {
+	public String[][] getGrille() {
 		return grille;
 	}
 
-	public void setGrille(Case[][] grille) {
+	public void setGrille(String[][] grille) {
 		this.grille = grille;
 	}
 

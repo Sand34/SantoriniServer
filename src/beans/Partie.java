@@ -4,13 +4,8 @@ public class Partie {
 
 	// ATTRIBUTS
 	private int score;
-	private Plateau plateau;
 	private Joueur joueur1;
 	private Joueur joueur2;
-
-	// CONSTRUCTEUR
-	public Partie() {
-	}
 
 	// GETTER & SETTER
 
@@ -26,24 +21,16 @@ public class Partie {
 		return joueur2;
 	}
 
+	public void setJoueur2(Joueur joueur2) {
+		this.joueur2 = joueur2;
+	}
+
 	public int getScore() {
 		return score;
 	}
 
 	public void setScore(int score) {
 		this.score = score;
-	}
-
-	public Plateau getPlateau() {
-		return plateau;
-	}
-
-	public void setPlateau(Plateau plateau) {
-		this.plateau = plateau;
-	}
-
-	public void setJoueur2(Joueur joueur2) {
-		this.joueur2 = joueur2;
 	}
 
 }

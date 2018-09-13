@@ -7,17 +7,6 @@ public class Joueur {
 	private Pion pion1;
 	private Pion pion2;
 
-	// CONSTRUCTEUR
-	public Joueur() {
-		super();
-	}
-
-	// public Joueur() {
-	// pion1 = new Pion();
-	// pion2 = new Pion();
-	//
-	// }
-
 	// GETTER & SETTER
 
 	public String getPseudo() {
@@ -34,6 +23,18 @@ public class Joueur {
 
 	public Pion getPion2() {
 		return pion2;
+	}
+
+	public void construire(String construction) {
+		pion1.construire(construction);
+	}
+
+	public void setPion1(Pion pion1) {
+		this.pion1 = pion1;
+	}
+
+	public void setPion2(Pion pion2) {
+		this.pion2 = pion2;
 	}
 
 }
